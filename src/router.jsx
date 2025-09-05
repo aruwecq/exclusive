@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Register from "./pages/Register";
 import LogIn from "./pages/LogIn";
+import WishList from "./pages/WishList";
+import Cart from "./pages/Cart";
 const myRouter = createBrowserRouter([
     {
         path: "/",
@@ -29,6 +31,13 @@ const myRouter = createBrowserRouter([
             {
                 path:"login",
                 element:<LogIn/>
+            }, 
+              {
+                path:"wishlist",
+                element:<WishList/>
+            },{
+                path:"Cart",
+                element:<Cart/>
             },
         ]
     }
